@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.board {
+  width: 45vw;
+  height: 45vw;
+  margin: 1.5em;
+  border: thin solid black;
+}
+.board table {
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+}
+.board td {
+  border: thin solid red;
+}
